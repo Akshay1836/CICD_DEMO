@@ -49,3 +49,4 @@ export async function getRecipe(req, res) {
     return httpResponse(500, error.message, null, res);
   }
 }
+// This code defines a function to handle HTTP GET requests for retrieving a recipe by its ID.
