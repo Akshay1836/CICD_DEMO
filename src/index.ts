@@ -20,7 +20,7 @@ app.use(
 
 app.use(body.json({ limit: "100kb" }));
 
-// load all routes.
+
 
 app.use("/recipes", require("./routes/recipes"));
 
